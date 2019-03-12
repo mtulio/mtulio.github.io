@@ -1,0 +1,38 @@
+site_name: My Docs
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Notebooks: notebooks.md
+  - Knowledge Base: kb.md
+  - Blog: posts/index.md
+  - FAQ:
+      - Linux:
+        - System: FAQ/linux-system.md
+        - Server: FAQ/linux-server.md
+        - Process: FAQ/linux-process.md
+        - File System: FAQ/linux-fs.md
+      - Network:
+        - DHCP: FAQ/net-dhcp.md
+        - DNS: FAQ/net-dns.md
+        - HTTP: FAQ/net-http.md
+        - General: FAQ/net-general.md
+      - Security:
+        - SSL: FAQ/security.md
+      - DataBase:
+        - Index: FAQ/db.md
+      - References: FAQ/references.md
+
+theme:
+  name: material
+  feature:
+    tabs: true
+  palette:
+    primary: "Grey"
+    accent: "indigo"
+  include_sidebar: true
+
+plugins:
+  - search
+
+copyright: Copyright &copy; 2019, Maintained by the <a href="/about">Marco Braga</a>.
